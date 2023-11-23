@@ -1,0 +1,260 @@
+Sub Registro()
+'
+' 
+'
+    Range("A11:Y11").Select
+    Selection.Copy
+    Sheets("DB").Select
+    Range("A3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Rows("3:3").Select
+    Application.CutCopyMode = False
+    Selection.Insert Shift:=xlDown, CopyOrigin:=xlFormatFromLeftOrAbove
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("A12:Y12").Select
+    Selection.Copy
+    Sheets("DB").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Rows("3:3").Select
+    Application.CutCopyMode = False
+    Selection.Insert Shift:=xlDown, CopyOrigin:=xlFormatFromLeftOrAbove
+    Range("A3").Select
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("A13:Y13").Select
+    Selection.Copy
+    Sheets("DB").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Rows("3:3").Select
+    Application.CutCopyMode = False
+    Selection.Insert Shift:=xlDown, CopyOrigin:=xlFormatFromLeftOrAbove
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    ActiveWindow.ScrollRow = 2
+    ActiveWindow.ScrollRow = 3
+    ActiveWindow.ScrollRow = 4
+    ActiveWindow.ScrollRow = 5
+    ActiveWindow.ScrollRow = 6
+    ActiveWindow.ScrollRow = 7
+    ActiveWindow.ScrollRow = 28
+    ActiveWindow.ScrollRow = 29
+    ActiveWindow.ScrollRow = 30
+    ActiveWindow.ScrollRow = 29
+    ActiveWindow.ScrollRow = 28
+    ActiveWindow.ScrollRow = 27
+    ActiveWindow.ScrollRow = 26
+    ActiveWindow.ScrollRow = 25
+    ActiveWindow.ScrollRow = 24
+    ActiveWindow.ScrollRow = 23
+    Range("E25").Select
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("A3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("E26").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("B3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("E27").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("C3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("E28").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("D3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("E29").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("E3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("E30").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("F3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("E31").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("G3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("E32").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("H3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("E33").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("I3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("E34").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("J3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("E35").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("K3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Range("L3").Select
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("E37").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("G37").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("M3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("I37").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("N3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("K37").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("O3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("M37").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("P3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("O37").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("Q3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("F38").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("R3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("I38").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("S3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("L38").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("T3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("O38").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("U3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("S38").Select
+    Application.CutCopyMode = False
+    Selection.Copy
+    Sheets("DB2").Select
+    Range("V3").Select
+    Selection.PasteSpecial Paste:=xlPasteValues, Operation:=xlNone, SkipBlanks _
+        :=False, Transpose:=False
+    Rows("3:3").Select
+    Application.CutCopyMode = False
+    Selection.Insert Shift:=xlDown, CopyOrigin:=xlFormatFromLeftOrAbove
+    Range("E9").Select
+    Sheets("CARACTERIZACIÓN SOCIAL").Select
+    Range("S38").Select
+    Selection.ClearContents
+    Range("O38").Select
+    Selection.ClearContents
+    Range("L38").Select
+    Selection.ClearContents
+    Range("I38").Select
+    Selection.ClearContents
+    Range("F38").Select
+    Selection.ClearContents
+    Range("E37").Select
+    Selection.ClearContents
+    Range("G37").Select
+    Selection.ClearContents
+    Range("I37").Select
+    Selection.ClearContents
+    Range("K37").Select
+    Selection.ClearContents
+    Range("M37").Select
+    Selection.ClearContents
+    Range("O37").Select
+    Selection.ClearContents
+    Range("E25:E35").Select
+    Range("E35").Activate
+    Selection.ClearContents
+    Range("A11:Y20").Select
+    Selection.ClearContents
+    Selection.ClearContents
+    Selection.ClearContents
+    Selection.ClearContents
+    Range("B14").Select
+End Sub
